@@ -208,3 +208,14 @@ img[class*="avatar"]:hover {
 	border-radius: 12px 12px 0px 0px;
 	margin: 11px 10px 0px 10px;
 }
+
+/* makes popup buttons round */
+.item-1tOPte {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.item-1tOPte:hover {
+        border-radius: 4px;
+}
+
