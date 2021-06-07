@@ -73,6 +73,23 @@ img[class*="avatar"]:hover {
 	border-radius: 4px;
 }
 
+.button-1PXUl0 {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.button-1PXUl0:hover {
+	border-radius: 4px;
+}
+.button-38aScr {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.button-38aScr:hover {
+	border-radius: 4px;
+}
+
 /* makes buttons in the sidebars rounded */
 
 /* channel list */
@@ -103,4 +120,48 @@ img[class*="avatar"]:hover {
 
 .layout-2DM8Md:hover {
 	border-radius: 4px;
+}
+
+/* message options */
+.wrapper-2aW0bm {
+	border-radius: 12px;
+}
+
+/*reply bar and other stuff */
+.replyBar-1YLQ2F {
+	border-radius: 12px;
+	margin-bottom: 10px;
+}
+
+.jumpToPresentBar-G1R9s6 {
+	margin-bottom: 13px;
+	border-radius: 12px;
+	padding: 4px;
+}
+
+.newMessagesBar-265mhP {
+	border-radius: 12px;
+	margin-top: 10px;
+}
+
+.messagesErrorBar-nyJGU7 {
+	border-radius: 12px;
+	margin-bottom: 14px;
+	padding: 4px;
+}
+
+/* home pages */
+.applicationStore-1pNvnv {
+	border-radius: 12px 12px 0px 0px;
+	margin: 11px 10px 0px 10px;
+}
+
+.container-1a3EgQ {
+	border-radius: 12px 12px 0px 0px;
+	margin: 11px 10px 0px 10px;
+}
+
+.container-1D34oG {
+	border-radius: 12px 12px 0px 0px;
+	margin: 11px 10px 0px 10px;
 }
