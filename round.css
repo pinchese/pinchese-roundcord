@@ -50,8 +50,22 @@ img[class*="avatar"]:hover {
 
 /* makes the roles look nicer */
 .role-2irmRk {
+	border-radius: 10px;
 	border: none;
 	background-color: var(--background-secondary-alt);
+}
+
+/* edits bot tags to be more round */
+.px-10SIf7.botTag-2WPJ74 {
+	border-radius: 10px;
+	padding: 1px 8px;
+	text-align: center;
+}
+
+.rem-2m9HGf.botTag-2WPJ74 {
+	border-radius: .496rem;
+	padding: .096rem .540rem;
+	text-align: center;
 }
 
 /* makes buttons round, returning them to normal on hover */
@@ -121,6 +135,29 @@ img[class*="avatar"]:hover {
 .layout-2DM8Md:hover {
 	border-radius: 4px;
 }
+
+/* user settings */
+
+/* radio buttons */
+.item-26Dhrx {
+	border-radius: 15px;
+	transition: 0.25s;
+}
+
+.item-26Dhrx:hover {
+	border-radius: 4px;
+}
+
+/* sidebar options */
+.side-8zPYf6 .item-PXvHYJ {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.side-8zPYf6 .item-PXvHYJ:hover {
+	border-radius: px;
+}
+
 
 /* message options */
 .wrapper-2aW0bm {
