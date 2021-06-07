@@ -1,0 +1,106 @@
+/* changes the design of discord's ui*/
+
+/* rounds the sidebar and spaces it out */
+.sidebar-2K8pFh {
+	border-radius: 12px 12px 0px 0px;
+	margin-top: 11px;
+}
+
+/* changes the "find or start a conversation" box */
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+	border-radius: 12px;
+	text-align: center;
+}
+
+/* makes the search bar round and adds a hover animation */
+.searchBar-3dMhjb {
+	border-radius: 12px;
+	padding: 0px 5px 0px 5px;
+	transition: 0.25s;
+}
+
+.searchBar-3dMhjb:hover {
+	width: 240px;
+}
+
+/* separates the channel bar from chat, and rounds the chat view */
+
+.content-yTz4x3:before {
+	display: none;
+}
+
+.chat-3bRxxu {
+	border-radius: 12px 12px 0px 0px;
+	margin: 11px 10px 0px 10px;
+}
+
+/* makes the text input box round */
+.scrollableContainer-2NUZem {
+	border-radius: 18px;
+}
+
+/* makes the avatars in chat square-ish on hover */
+img[class*="avatar"] {
+	transition: 0.25s;
+}
+
+img[class*="avatar"]:hover {
+	border-radius: 30%;
+}
+
+/* makes the roles look nicer */
+.role-2irmRk {
+	border: none;
+	background-color: var(--background-secondary-alt);
+}
+
+/* makes buttons round, returning them to normal on hover */
+.button-1YfofB {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.button-1YfofB:hover {
+	border-radius: 4px;
+}
+
+.button-14-BFJ {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.button-14-BFJ:hover {
+	border-radius: 4px;
+}
+
+/* makes buttons in the sidebars rounded */
+
+/* channel list */
+.content-1x5b-n {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.content-1x5b-n:hover {
+	border-radius: 4px;
+}
+
+/* voice users */
+.content-1Wq3SX {
+	border-radius: 12px;
+	transition: 0.25s;
+}
+
+.content-1Wq3SX:hover {
+	border-radius: 4px;
+}
+
+/* member list members */
+.layout-2DM8Md {
+	border-radius: 18px;
+	transition: 0.25s;
+}
+
+.layout-2DM8Md:hover {
+	border-radius: 4px;
+}

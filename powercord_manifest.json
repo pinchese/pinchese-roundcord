@@ -1,0 +1,8 @@
+{
+  "name": "Roundcord Dev Branch",
+  "version": "1.0.0",
+  "author": "pinchese",
+  "license": "GNU General Public License",
+  "theme": "round.css",
+  "description": "A theme for Discord, making it more round."
+}
