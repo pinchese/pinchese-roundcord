@@ -219,3 +219,8 @@ img[class*="avatar"]:hover {
         border-radius: 4px;
 }
 
+/* changes the margin and border radius of the discovery list */
+.pageWrapper-1PgVDX {
+	margin: 11px 11px 0px 11px;
+	border-radius: 12px 12px 0px 0px;
+}
