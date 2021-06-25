@@ -236,3 +236,25 @@ img[class*="avatar"]:hover {
 .iconActiveMedium-1UaEIR {
 	border-radius: 50%;
 }
+
+/* makes the popout server identity button look like a button */
+.colorLink-2vG20E {
+	transition: 0.25s;
+	border: solid;
+	border-radius: 15px;
+	padding: 5px 12px;
+	border-color: var(--background-tertiary);
+	background-color: var(--background-tertiary);
+}
+
+.colorLink-2vG20E:hover {
+	border-radius: 5px;
+}
+
+.setIdentityLink-1t8Ahd {
+	margin-top: 14px;
+}
+
+.setIdentityLink-1t8Ahd:hover {
+	text-decoration: none;
+}
