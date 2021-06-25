@@ -164,7 +164,11 @@ img[class*="avatar"]:hover {
 	border-radius: 12px;
 }
 
-/*reply bar and other stuff */
+/* attatched message bars */
+.attachedBars-tZDmyV {
+    border-radius: 12px;
+}
+
 .replyBar-1YLQ2F {
 	border-radius: 12px;
 	margin-bottom: 10px;
