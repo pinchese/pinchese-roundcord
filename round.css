@@ -262,3 +262,18 @@ img[class*="avatar"]:hover {
 .setIdentityLink-1t8Ahd:hover {
 	text-decoration: none;
 }
+
+/* message reactions  */
+.reaction-1hd86g {
+	border-radius: 1em;
+	background: var(--background-tertiary);
+	border: none;
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+	background-color: var(--brand-experiment-30a);
+}
+
+.reactionInner-15NvIl {
+	padding: .15rem .5rem;
+}
