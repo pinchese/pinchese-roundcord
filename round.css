@@ -3,7 +3,7 @@
 /* rounds the sidebar and spaces it out */
 .sidebar-2K8pFh {
 	border-radius: 12px 12px 0px 0px;
-	margin-top: 11px;
+	margin-top: 12px;
 }
 
 /* changes the "find or start a conversation" box */
@@ -31,7 +31,7 @@
 
 .chat-3bRxxu {
 	border-radius: 12px 12px 0px 0px;
-	margin: 11px 10px 0px 10px;
+	margin: 12px 11px 0px 10px;
 }
 
 /* makes the text input box round */
@@ -148,7 +148,7 @@ img[class*="avatar"]:hover {
 	border-radius: 4px;
 }
 
-/* sidebar options */
+/* sidebar options left: 0px;*/
 .side-8zPYf6 .item-PXvHYJ {
 	border-radius: 12px;
 	transition: 0.25s;
@@ -166,12 +166,14 @@ img[class*="avatar"]:hover {
 
 /* attatched message bars */
 .attachedBars-tZDmyV {
-    border-radius: 12px;
+    border-radius: 1em;
+	margin-bottom: .5em;
+	background: none;
 }
 
 .replyBar-1YLQ2F {
 	border-radius: 12px;
-	margin-bottom: 10px;
+	background-color: var(--background-secondary-alt);
 }
 
 .jumpToPresentBar-G1R9s6 {
@@ -195,6 +197,7 @@ img[class*="avatar"]:hover {
 	border-radius: 12px;
 	margin-bottom: 14px;
 	padding: 4px;
+	background-color: var(--background-secondary-alt);
 }
 
 /* home pages */
@@ -257,6 +260,7 @@ img[class*="avatar"]:hover {
 
 .setIdentityLink-1t8Ahd {
 	margin-top: 14px;
+	margin-bottom: 4px;
 }
 
 .setIdentityLink-1t8Ahd:hover {
@@ -276,4 +280,14 @@ img[class*="avatar"]:hover {
 
 .reactionInner-15NvIl {
 	padding: .15rem .5rem;
+}
+
+/* threads */
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+	border-radius: 12px 12px 0px 0px;
+}
+
+.threadSidebar-1o3BTy {
+	margin: 12px 12px 0px 0px;
+	border-radius: 12px 12px 0px 0px;
 }
