@@ -50,9 +50,27 @@ img[class*="avatar"]:hover {
 
 /* makes the roles look nicer */
 .role-2irmRk {
-	border-radius: 10px;
-	border: none;
-	background-color: var(--background-secondary-alt);
+        border-radius: 10px;
+        background-color: var(--background-secondary-alt);
+        position: relative;
+        overflow: hidden;
+        border: none;
+        padding: 2px 5px 2px 2px;
+}
+
+.roleCircle-3xAZ1j::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        opacity: .2;
+        pointer-events: none;
+}
+.footer-1fjuF6 {
+        border-top: none;
 }
 
 /* edits bot tags to be more round */
