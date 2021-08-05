@@ -50,7 +50,7 @@ img[class*="avatar"]:hover {
 
 /* makes the roles look nicer */
 .role-2irmRk {
-        border-radius: 10px;
+        border-radius: 50px;
         background-color: var(--background-secondary-alt);
         position: relative;
         overflow: hidden;
