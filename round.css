@@ -309,3 +309,12 @@ img[class*="avatar"]:hover {
 	margin: 12px 12px 0px 0px;
 	border-radius: 12px 12px 0px 0px;
 }
+
+/* member list */
+.membersWrap-2h-GB4 {
+	padding: 10px 10px 0px 10px;
+}
+
+.members-1998pB, .members-1998pB>div {
+	border-radius: 15px 15px 0px 0px;
+}
