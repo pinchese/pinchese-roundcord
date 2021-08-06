@@ -55,7 +55,7 @@ img[class*="avatar"]:hover {
         position: relative;
         overflow: hidden;
         border: none;
-        padding: 2px 5px 2px 2px;
+        padding: 2px 5px 2px 5px;
 }
 
 .roleCircle-3xAZ1j::before {
@@ -317,4 +317,8 @@ img[class*="avatar"]:hover {
 
 .members-1998pB, .members-1998pB>div {
 	border-radius: 15px 15px 0px 0px;
+}
+
+.membersGroup-v9BXpm {
+	padding: 18px 8px 0 16px;
 }
